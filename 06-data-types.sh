@@ -7,6 +7,6 @@ TIMESTAMP=$(date)
 
 echo "Scripted executed at $TIMESTAMP"
 
-SUM=(($NUMBER1+$NUMBER2))
+SUM=$(($NUMBER1+$NUMBER2))
 
 echo "SUM of $NUMBER1 AND $NUMBER2 IS : $SUM"
